@@ -10,17 +10,17 @@ System.Data.SqlClient - 4.8.5<br>
 
 ## SQL
 Invoices -<br>
-    - Invoice -<br>
-        - Id - int<br>
-        - InvoiceId - nvarchar(50)<br>
-        - Time - datetime<br>
-        - StatusId - int<br>
-        - Amount - int<br>
-    - Status -<br>
-        - StatusId - int<br>
-        - StatusName - varchar(15)<br>
-    - ExceptionsLogs -<br>
-        - Id - int<br>
-        - ProjectName - varchar(50)<br>
-        - Time - datetime<br>
-        - ExceptionContent - nvarchar(4000)<br>
+&nbsp;Invoice -<br>
+&nbsp;&nbsp;Id - int<br>
+&nbsp;&nbsp;InvoiceId - nvarchar(50)<br>
+&nbsp;&nbsp;Time - datetime<br>
+&nbsp;&nbsp;StatusId - int<br>
+&nbsp;&nbsp;Amount - int<br>
+&nbsp;Status -<br>
+&nbsp;&nbsp;StatusId - int<br>
+&nbsp;&nbsp;StatusName - varchar(15)<br>
+&nbsp;ExceptionsLogs -<br>
+&nbsp;&nbsp;Id - int<br>
+&nbsp;&nbsp;ProjectName - varchar(50)<br>
+&nbsp;&nbsp;Time - datetime<br>
+&nbsp;&nbsp;ExceptionContent - nvarchar(4000)<br>
