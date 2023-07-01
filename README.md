@@ -1,26 +1,26 @@
 # InvoicesApi
-.Net Core Api for invoices management__
+.Net Core Api for invoices management<br>
 
 ## Versions
-.Net Core - 6.0__
-Dapper - 2.0.143__
-Microsoft.Extensions.Caching.Abstractions - 7.0.0__
-Swashbuckle.AspNetCore - 6.5.0__
-System.Data.SqlClient - 4.8.5__
+.Net Core - 6.0<br>
+Dapper - 2.0.143<br>
+Microsoft.Extensions.Caching.Abstractions - 7.0.0<br>
+Swashbuckle.AspNetCore - 6.5.0<br>
+System.Data.SqlClient - 4.8.5<br>
 
 ## SQL
-Invoices -__
-    Invoice -__
-        Id - int__
-        InvoiceId - nvarchar(50)__
-        Time - datetime__
-        StatusId - int__
-        Amount - int__
-    Status -__
-        StatusId - int__
-        StatusName - varchar(15)__
-    ExceptionsLogs -__
-        Id - int__
-        ProjectName - varchar(50)__
-        Time - datetime__
-        ExceptionContent - nvarchar(4000)__
+Invoices -<br>
+    Invoice -<br>
+        Id - int<br>
+        InvoiceId - nvarchar(50)<br>
+        Time - datetime<br>
+        StatusId - int<br>
+        Amount - int<br>
+    Status -<br>
+        StatusId - int<br>
+        StatusName - varchar(15)<br>
+    ExceptionsLogs -<br>
+        Id - int<br>
+        ProjectName - varchar(50)<br>
+        Time - datetime<br>
+        ExceptionContent - nvarchar(4000)<br>
